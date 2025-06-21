@@ -19,7 +19,19 @@
       padding: 2rem;
       text-align: center;
     }
+.headshot-header {
+  text-align: center;
+  padding-top: 2rem;
+}
 
+.headshot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
     section {
       max-width: 900px;
       margin: auto;
@@ -30,7 +42,10 @@
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
 
-    h1, h2 {
+    h1 {
+      color: #919eb1;
+    }
+    h2 {
       color: #1f2937;
     }
 
@@ -117,8 +132,8 @@
   </style>
 </head>
 <body>
-
-  <header>
+  <header class="headshot-header">
+    <img src="images/Headshot.jpeg" alt="Nick Juliano Headshot" class="headshot">
     <h1>Nick Juliano</h1>
     <p>Data Scientist | Forward Deployed Engineer | General Problem Solver</p>
     <p><a href="mailto:nick_juliano@icloud.com">nick_juliano@icloud.com</a> | <a href="https://www.linkedin.com/in/julianonick/" target="_blank">LinkedIn</a> | <a href="https://github.com/nick-juliano" target="_blank">GitHub</a></p>
@@ -276,9 +291,10 @@
 <section>
   <h2>Fun Facts</h2>
 <ul>
-    <li>I served as an astrophysical consultant for Canadian Astronaut Chris Hadfield for Vanity Fair Space Movie Interview (15 million views on Youtube)</li>
+    <li>I served as an astrophysical consultant for Canadian Astronaut Chris Hadfield for <a href="https://www.youtube.com/watch?v=3RkhZgRNC1k"> Vanity Fair Space Movie Interview</a> (15 million views on Youtube)</li>
     <li>I was part of the Guiness World Record largest Harlem Shake</li>
     <li>I built my own street-legal trailer</li>
+    <li>I make <a href="carvingGallery.html">chainsaw carvings</a> in my spare time</li>
   </ul>
 
   <section>
